@@ -5,12 +5,14 @@
   align-items: center;
   margin-top: 20%;
   font-size: 100px;
+  margin-bottom: 5%;
 }
 
 .hob {
     font-size: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 10%;
   margin-bottom: 5%;
 }
@@ -95,6 +97,8 @@ dl {
   margin-left: 14px;
   margin-right: 14px;
   width: 276px;
+  place-content: center;
+  text-align: center;
 }
 
 .fa-tv {

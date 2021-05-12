@@ -1,0 +1,61 @@
+#testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border-radius: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.owl-carousel {
+  background-image: url(../images/1*sHII9He7gMmoL5ngX315XA.png);
+  object-fit: none;
+}
+
+.owl-carousel .owl-item img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  object-fit: fill;
+}
+
+.container-t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  flex-basis: 50%;
+  line-height: 45px;
+}
+
+.people {
+  color: blanchedalmond;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.job {
+  color: rgb(9, 91, 184);
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.quote {
+  color: rgb(26, 24, 24);
+  font-size: 17px;
+}

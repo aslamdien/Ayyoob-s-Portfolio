@@ -8,12 +8,13 @@ nav {
   position: fixed;
   top: 0;
   background: black;
-  width: 188.7vh;
+  width: 199vh;
   height: 6vh;
   text-decoration-line: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  z-index: 100;
 }
 
 a {

@@ -3,10 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles/narbar.css" />
     <link rel="stylesheet" href="styles/home.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/Experience.css" />
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/testmonial.css">
     <script
       src="https://kit.fontawesome.com/4d777e0ebe.js"
       crossorigin="anonymous"
@@ -22,8 +37,8 @@
       <ul>
         <li class="nav-links"><a href="#homepage">Home</a></li>
         <li class="nav-links"><a href="#aboutme">About Me</a></li>
-        <li class="nav-links"><a href="#">Work</a></li>
-        <li class="nav-links"><a href="#">Portfolio</a></li>
+        <li class="nav-links"><a href="#work">Work</a></li>
+        <li class="nav-links"><a href="#projects">Portfolio</a></li>
         <li class="nav-links">
           <a href="#">Testimonials</a>
         </li>
@@ -46,7 +61,7 @@
             </div>
           </div>
           <div class="download">
-            <a href=""><i class="fas fa-download"></i> Download CV</a>
+            <a href=""><i class="fas fa-download"></i>Download CV</a>
           </div>
         </div>
         <div class="img">
@@ -129,13 +144,12 @@
     </section>
     <!-- Work -->
     <section id="work">
-      <div>
+      <div class="exp">
         <h2 class="mine"><i class="fas fa-hard-hat"></i>Experiences</h2>
-        <div class="timeline">
-          <div class="line-work"></div>
-          <div class="timeline-item item1">
-            <h2><i class="far fa-building"></i> A.K Interiors</h2>
-            <h4><i class="far fa-calendar"></i> Nov 2016 - Dec 2017</h4>
+        <div class="col-md-8 section__resume resume-list">
+          <div class="resume-list__block">
+            <p class="resume-list__block-title"><i class="far fa-building"></i> A.K Interiors</p>
+            <p class="resume-list__block-date"><i class="far fa-calendar"></i> Nov 2016 - Dec 2017</p>
             <p>Trianee</p>
             <p class="par">
               Whenever we got the material (wood) needed I had to pack and sort
@@ -145,9 +159,9 @@
               them.
             </p>
           </div>
-          <div class="timeline-item item2">
-            <h2><i class="far fa-building"></i> Enlight Technologies</h2>
-            <h4><i class="far fa-calendar"></i> May 2017- Dec 2018</h4>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title"><i class="far fa-building"></i> Enlight Technologies</p>
+            <p class="resume-list__block-date"><i class="far fa-calendar"></i> May 2017- Dec 2018</p>
             <p>Internship</p>
             <p class="par">
               I assisted sub-contractors for Telkom installing and repair faults
@@ -157,9 +171,9 @@
               either from the customers Home, a DP, an SDC or an MDF.
             </p>
           </div>
-          <div class="timeline-item item3">
-            <h2><i class="far fa-building"></i> HiH Technologies</h2>
-            <h4><i class="far fa-calendar"></i> Jan 2020 - March 2020</h4>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title"><i class="far fa-building"></i> HiH Technologies</p>
+            <p class="resume-list__block-date"><i class="far fa-calendar"></i> Jan 2020 - March 2020</p>
             <p>Independent Dealer</p>
             <p class="par">
               I preformed in-house full factory demonstrations to provide market
@@ -172,22 +186,254 @@
         <div>
           <h2 class="mine"><i class="fas fa-user-graduate"></i> Education</h2>
         </div>
-        <div class="edu">
-          <div class="line-edu"></div>
-          <div class="edu-item edu-item1" >
-            <h2><i class="fas fa-school"></i> LifeChoices Academy</h2>
-            <h4><i class="far fa-calendar"></i> April 2021 - Present</h4>
+        <div class="col-md-8 section__resume resume-list">
+          <div class="resume-list__block">
+            <p class="resume-list__block-title"><i class="fas fa-school"></i> LifeChoices Academy</p>
+            <p class="resume-list__block-date"><i class="far fa-calendar"></i> April 2021 - Present</p>
             <p class="par">A Training fercility focusing on teaching youth Web Development and Coding, as well as focus on personal Development and leadership skills
+            </p>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title"><i class="fas fa-school"></i>Enlight Technologies - Certified Fibre Technician</p>
+            <p class="resume-list__block-date"><i class="far fa-calendar"></i> May 2017 - Dec 2018</p>
+            <p class="par">I was given training in the use of installing FTTH (Fibre-To-The-Home) as well as the different forms of Fibre repair    
             </p>
           </div>
           </div>
           <div class="skill">
-            <h1 class="hob">Skills</h1>
-
+            <h1 class="hob"><i class="fas fa-keyboard"></i> Skills</h1>
+            <div class="row section__resume progress-list js-progress-list">
+              <div class="col-md-5 mr-auto">
+                <div class="progress-list__skill">
+                  <p>
+                    <span class="progress-list__skill-title">HTML</span>
+                    <span class="progress-list__skill-value">80%</span>
+                  </p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                  </div>
+                </div>
+              <div class="progress-list__skill">
+                <p>
+                  <span class="progress-list__skill-title">CSS</span>
+                  <span class="progress-list__skill-value">60%</span>
+                </p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>
+              </div>
+              <div class="progress-list__skill">
+                <p>
+                  <span class="progress-list__skill-title">Microsoft Office: Word, Publisher and PowerPoint</span>
+                  <span class="progress-list__skill-value">90%</span>
+                </p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                </div>
+              </div>                              
+              </div>
+              <div class="col-md-5 mr-auto">
+                <div class="progress-list__skill">
+                  <p>
+                    <span class="progress-list__skill-title">Time Management</span>
+                    <span class="progress-list__skill-value">60%</span>
+                  </p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                  </div>
+                </div>
+                <div class="progress-list__skill">
+                  <p>
+                    <span class="progress-list__skill-title">Origanizing</span>
+                    <span class="progress-list__skill-value">70%</span>
+                  </p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="progress-list__skill">
+                  <p>
+                    <span class="progress-list__skill-title">Adaptable</span>
+                    <span class="progress-list__skill-value">80%</span>
+                  </p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Projects -->
+    <section id="projects" class="container section">
+      <div class="project">
+        <h1 class="me"><i class="fas fa-puzzle-piece"></i></h1>
+      </div>
+      <div class="project-cards">
+        <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+          <div class="col-md-6 col-lg-5 project-card__img">
+            <img class="img-contact"  src="./images/contact.png" alt="project.png">
+          </div>
+          <div class="col-md-6 col-lg-7 project-card__info">
+            <h3 class="project-card__title">Contact Form</h3>
+            <p class="project-card__description">
+              This was the first Project I work. It was made using Html, CSS and a web site know as "formspree.oi"
+            </p>
+            <p class="project-card__stack">Links:</p>
+            <ul class="tag">
+              <li class="link"><a href="https://nostalgic-galileo-e941cf.netlify.app/"><i class="far fa-eye"></i> Live</a></li>
+              <li class="link"><a href="https://github.com/aslamdien/contact-form"><i class="fab fa-github"></i>GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+          <div class="col-md-6 col-lg-5 project-card__img">
+            <img class="img-timeline"  src="./images/timeline.png" alt="project.png">
+          </div>
+          <div class="col-md-6 col-lg-7 project-card__info">
+            <h3 class="project-card__title">Timeline</h3>
+            <p class="project-card__description">
+            This the layout of a timeline I created. It was with HTML, CSS and using code from "michalsnik.github.io/aos/"
+            </p>
+            <p class="project-card__stack">Links:</p>
+            <ul class="tag">
+              <li class="link"><a href="https://stoic-feynman-8ad41d.netlify.app/"><i class="far fa-eye"></i> Live</a></li>
+              <li class="link"><a href="https://github.com/aslamdien/My-Timeline"><i class="fab fa-github"></i>GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+          <div class="col-md-6 col-lg-5 project-card__img">
+            <img class="img-testimonial"  src="./images/testimonials.png" alt="project.png">
+          </div>
+          <div class="col-md-6 col-lg-7 project-card__info">
+            <h3 class="project-card__title">Testimonials</h3>
+            <p class="project-card__description">
+            This the layout of a timeline I created. It was with HTML, CSS and JavaScript
+            </p>
+            <p class="project-card__stack">Links:</p>
+            <ul class="tag">
+              <li class="link"><a href="https://competent-spence-e7ce8e.netlify.app/"><i class="far fa-eye"></i> Live</a></li>
+              <li class="link"><a href="https://github.com/aslamdien/Testimonial/"><i class="fab fa-github"></i>GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+          <div class="col-md-6 col-lg-5 project-card__img">
+            <img class="img-project"  src="./images/timeline.png" alt="project.png">
+          </div>
+          <div class="col-md-6 col-lg-7 project-card__info">
+            <h3 class="project-card__title">Project Cards</h3>
+            <p class="project-card__description">
+            These are my project cards with both the Live and Github link attach. This only contains the first three project above. 
+            </p>
+            <p class="project-card__stack">Links:</p>
+            <ul class="tag">
+              <li class="link"><a href="https://stoic-feynman-8ad41d.netlify.app/"><i class="far fa-eye"></i> Live</a></li>
+              <li class="link"><a href="https://github.com/aslamdien/My-Timeline"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+          </div>
+        </div>        
+        <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+          <div class="col-md-6 col-lg-5 project-card__img">
+            <img class="img-sneaker"  src="./images/sneaker-store.png" alt="project.png">
+          </div>
+          <div class="col-md-6 col-lg-7 project-card__info">
+            <h3 class="project-card__title">Sneaker Store Site</h3>
+            <p class="project-card__description">
+            This a mock design of a sneaker site website I recreate as a group project. I contains HTML, CSS and JavaScript.
+            </p>
+            <p class="project-card__stack">Links:</p>
+            <ul class="tag">
+              <li class="link"><a href="https://nostalgic-booth-3e9bb6.netlify.app/"><i class="far fa-eye"></i> Live</a></li>
+              <li class="link"><a href="https://github.com/aslamdien/Sneakers"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimnials -->
+    <section id="testimonial" class="section-t">
+      <div>
+        <h1 class="me"><i class="fas fa-comment"></i></h1>
+      </div>
+      <div class="owl-carousel">
+        <div class="testimonial person1">
+          <img src="images/C8 Apr21 Uthmaan Breda (1).JPG" />
+          <div class="container-t">
+            <h2 class="people">Uthmaan Breda</h2>
+            <h3 class="job">- Web Developer -</h3>
+            <q class="quote"
+              >He is a man of few words, his actions show that he is a man of
+              integrity and honour.</q
+            >
+          </div>
+        </div>
+        <div class="testimonial person2">
+          <img src="images/C8 Apr21 Zipho Sithandathu (1).JPG" />
+          <div class="container-t">
+            <h2 class="people">Zipho Sithandathu</h2>
+            <h3 class="job">- AOS Developer -</h3>
+            <q class="quote"
+              >He is good at what his doing and he does`nt hesitate to help when
+              you ask for help.</q
+            >
+          </div>
+        </div>
+        <div class="testimonial person3">
+          <img src="images/C8 Apr21 Abdul-Malik Mohamed (1).JPG" />
+          <div class="container-t">
+            <h2 class="people">Abdul-Makil Mohammad</h2>
+            <h3 class="job">- Jnr Web Developer -</h3>
+            <q class="quote"
+              >Ayyoob lends a hand without hesitation, you don`t have to ask him
+              twice to help out.</q
+            >
+          </div>
+        </div>
+        <div class="testimonial person4">
+          <img src="images" >
+          <div class="container-t">
+            <h2 class="people">Gideon Daniels</h2>
+            <h3 class="job">- Jnr Web Developer -</h3>
+            <q class="quote">Ayyoob is intellegent, his dilligent when facing adversity and is unwavering, he always tries to do better everyday</q>
+          </div>
+        </div>
+        <div class="testimonial person5">
+          <img src="images" >
+          <div class="container-t">
+            <h2 class="people">Tepelo</h2>
+            <h3 class="job">- Leacturer -</h3>
+            <q class="quote"></q>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,149 @@
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+}
+
+.container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.project-cards {
+  margin-left: 0;
+  margin-bottom: 40px;
+  transition: box-shadow 0.3s;
+  margin-right: 0;
+  box-sizing: inherit;
+}
+
+.pro {
+  margin-bottom: 5%;
+}
+
+.project-card .project-card__img {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col-lg-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 41.66667%;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.project-card .project-card__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: fill;
+  height: 352px;
+}
+
+img {
+  border-style: none;
+  vertical-align: middle;
+}
+
+.project-card .project-card__info {
+  border: 1px solid #f1f1f1;
+  padding: 50px 50px 40px 30px;
+}
+
+.project-card .project-card__info {
+  border: 1px solid #f1f1f1;
+  padding: 50px 50px 40px 30px;
+}
+
+.col-lg-7 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 58.33333%;
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+
+.project-card .project-card__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Roboto Mono, monospace;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+h3 {
+  color: inherit;
+  margin-top: 0;
+}
+
+.project-card .project-card__description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+.project-card .project-card__stack {
+  font-family: Roboto Mono, monospace;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.fa-github {
+  background: none;
+  margin: 0;
+}
+
+.fa-github:hover {
+  background: none;
+  color: none;
+}
+
+.fa-puzzle-piece {
+  background: none;
+}
+
+.fa-puzzle-piece:hover {
+  background: none;
+  color: black;
+}
+
+.link {
+  border-radius: 50px;
+  background: #603aca;
+  width: 120px;
+  height: 40px;
+  place-items: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.link:hover {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #4c21c2, #5a28e7);
+}
