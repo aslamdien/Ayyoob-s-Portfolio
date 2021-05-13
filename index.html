@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/testmonial.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/4d777e0ebe.js"
       crossorigin="anonymous"
@@ -31,18 +34,15 @@
   <body>
     <!-- Narbar section -->
     <nav>
-      <button class="nav-btn" onclick="toggleNavbar()">
-        <i class="fas fa-bars"></i>
-      </button>
       <ul>
         <li class="nav-links"><a href="#homepage">Home</a></li>
         <li class="nav-links"><a href="#aboutme">About Me</a></li>
         <li class="nav-links"><a href="#work">Work</a></li>
         <li class="nav-links"><a href="#projects">Portfolio</a></li>
         <li class="nav-links">
-          <a href="#">Testimonials</a>
+          <a href="#testimonial">Testimonials</a>
         </li>
-        <li class="nav-links"><a href="#">Contact</a></li>
+        <li class="nav-links"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <!-- Home Page/landing -->
@@ -61,7 +61,7 @@
             </div>
           </div>
           <div class="download">
-            <a href=""><i class="fas fa-download"></i>Download CV</a>
+            <a href="./images/Curriculum Vitae of Ayyoob.pdf"download><i class="fas fa-download"></i>Download CV</a>
           </div>
         </div>
         <div class="img">
@@ -74,8 +74,9 @@
       <div>
         <h1 class="me"><i class="far fa-address-card"></i></h1>
       </div>
-      <div class="row about">
-        <div>
+      <div class="about row2">
+        <div class="file">        
+          <div>
           <img
             class="img4"
             src="./images/image4-removebg-preview.png"
@@ -102,6 +103,7 @@
             </dd>
           </dl>
         </div>
+      </div>
         <div class="bio">
           <p>
             I am a hard-working person, someone who prefers not to quit work
@@ -147,6 +149,9 @@
       <div class="exp">
         <h2 class="mine"><i class="fas fa-hard-hat"></i>Experiences</h2>
         <div class="col-md-8 section__resume resume-list">
+
+          <div data-aos="flip-up"      data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
           <div class="resume-list__block">
             <p class="resume-list__block-title"><i class="far fa-building"></i> A.K Interiors</p>
             <p class="resume-list__block-date"><i class="far fa-calendar"></i> Nov 2016 - Dec 2017</p>
@@ -158,7 +163,12 @@
               thinness and brooms to clean any pencil marks and saw dust left in
               them.
             </p>
-          </div>
+            <div class="line-e"></div>
+          </div>            
+          </div>          
+          <div data-aos="flip-up" 
+          data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">
           <div class="resume-list__block">
             <p class="resume-list__block-title"><i class="far fa-building"></i> Enlight Technologies</p>
             <p class="resume-list__block-date"><i class="far fa-calendar"></i> May 2017- Dec 2018</p>
@@ -170,7 +180,12 @@
               the areas where the problems occur in order to repair faults
               either from the customers Home, a DP, an SDC or an MDF.
             </p>
-          </div>
+            <div class="line-e"></div>
+          </div>            
+        </div>
+            <div data-aos="flip-up" 
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="3000">
           <div class="resume-list__block">
             <p class="resume-list__block-title"><i class="far fa-building"></i> HiH Technologies</p>
             <p class="resume-list__block-date"><i class="far fa-calendar"></i> Jan 2020 - March 2020</p>
@@ -181,24 +196,38 @@
               received training on said product before going out on the field to
               clients homes to demonstrate the product.
             </p>
+            <div class="line-e"></div>
+          </div>            
           </div>
         </div>
         <div>
           <h2 class="mine"><i class="fas fa-user-graduate"></i> Education</h2>
         </div>
         <div class="col-md-8 section__resume resume-list">
+
+
+        <div data-aos="flip-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           <div class="resume-list__block">
             <p class="resume-list__block-title"><i class="fas fa-school"></i> LifeChoices Academy</p>
             <p class="resume-list__block-date"><i class="far fa-calendar"></i> April 2021 - Present</p>
             <p class="par">A Training fercility focusing on teaching youth Web Development and Coding, as well as focus on personal Development and leadership skills
             </p>
-          </div>
-          <div class="resume-list__block">
+            <div class="line-e"></div>
+          </div>          
+        </div>
+      <div data-aos="flip-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
+        <div class="resume-list__block">
             <p class="resume-list__block-title"><i class="fas fa-school"></i>Enlight Technologies - Certified Fibre Technician</p>
             <p class="resume-list__block-date"><i class="far fa-calendar"></i> May 2017 - Dec 2018</p>
             <p class="par">I was given training in the use of installing FTTH (Fibre-To-The-Home) as well as the different forms of Fibre repair    
             </p>
-          </div>
+            <div class="line-e"></div>
+          </div>         
+       </div>
           </div>
           <div class="skill">
             <h1 class="hob"><i class="fas fa-keyboard"></i> Skills</h1>
@@ -273,6 +302,10 @@
         <h1 class="me"><i class="fas fa-puzzle-piece"></i></h1>
       </div>
       <div class="project-cards">
+        <div data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1000"
+        data-aos-offset="0">
         <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
           <div class="col-md-6 col-lg-5 project-card__img">
             <img class="img-contact"  src="./images/contact.png" alt="project.png">
@@ -288,7 +321,12 @@
               <li class="link"><a href="https://github.com/aslamdien/contact-form"><i class="fab fa-github"></i>GitHub</a></li>
             </ul>
           </div>
+        </div>          
         </div>
+        <div data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1200"
+        data-aos-offset="0">
         <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
           <div class="col-md-6 col-lg-5 project-card__img">
             <img class="img-timeline"  src="./images/timeline.png" alt="project.png">
@@ -304,7 +342,12 @@
               <li class="link"><a href="https://github.com/aslamdien/My-Timeline"><i class="fab fa-github"></i>GitHub</a></li>
             </ul>
           </div>
+        </div>          
         </div>
+        <div data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1400"
+        data-aos-offset="0">
         <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
           <div class="col-md-6 col-lg-5 project-card__img">
             <img class="img-testimonial"  src="./images/testimonials.png" alt="project.png">
@@ -320,7 +363,12 @@
               <li class="link"><a href="https://github.com/aslamdien/Testimonial/"><i class="fab fa-github"></i>GitHub</a></li>
             </ul>
           </div>
+        </div>          
         </div>
+        <div data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1600"
+        data-aos-offset="0">
         <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
           <div class="col-md-6 col-lg-5 project-card__img">
             <img class="img-project"  src="./images/timeline.png" alt="project.png">
@@ -336,7 +384,12 @@
               <li class="link"><a href="https://github.com/aslamdien/My-Timeline"><i class="fab fa-github"></i> GitHub</a></li>
             </ul>
           </div>
-        </div>        
+        </div>          
+        </div>
+        <div data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1800"
+        data-aos-offset="0">
         <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
           <div class="col-md-6 col-lg-5 project-card__img">
             <img class="img-sneaker"  src="./images/sneaker-store.png" alt="project.png">
@@ -352,6 +405,7 @@
               <li class="link"><a href="https://github.com/aslamdien/Sneakers"><i class="fab fa-github"></i> GitHub</a></li>
             </ul>
           </div>
+        </div>          
         </div>
       </div>
     </section>
@@ -395,7 +449,7 @@
           </div>
         </div>
         <div class="testimonial person4">
-          <img src="images" >
+          <img src="images/C8 Apr21 Gideon Daniels (2).JPG" >
           <div class="container-t">
             <h2 class="people">Gideon Daniels</h2>
             <h3 class="job">- Jnr Web Developer -</h3>
@@ -403,16 +457,101 @@
           </div>
         </div>
         <div class="testimonial person5">
-          <img src="images" >
+          <img src="images/thapelo-tsotetsi.jpg" >
           <div class="container-t">
             <h2 class="people">Tepelo</h2>
             <h3 class="job">- Leacturer -</h3>
             <q class="quote"></q>
           </div>
         </div>
+        <div class="testimonial person6">
+          <img src="images/2021-team-jason-wandrag.jpg" >
+          <div class="container-t">
+            <h2 class="people">Jason Wandrag</h2>
+            <h3 class="job">- Leacturer -</h3>
+            <q class="quote">Ayyoob is a kind and caring person who makes sure to put in 100% effort whilst taking his time to go over new concepts. He has a very pleasant nature and is quite respectful.</q>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- Contact Form -->
+    <section id="contact">
+      <div class="header">
+          <header class="page-header-container">
+            <h2 class="page-heading2">Want To Talk?</h2>
+            <h3 class="page-subtitle">Let's get in touch</h3>
+          </header>             
+      </div>
+ 
+      <div class="contactpage content">
+        <div class="box1">
+          <div class="con-info">
+            <div class="con-info-sub">
+              <i class="fas fa-map-marker-alt"></i>
+              <p class="con-info-text">
+                31 Van De Leur Road, Cape Town, South Africa
+              </p>
+            </div>
+            <div class="con-info-sub">
+              <i class="fas fa-phone-volume con-info-icon"></i>
+              <p class="con-info-text">+27 061 417 0272</p>
+            </div>
+            <div class="con-info-sub">
+              <i class="fas fa-paper-plane con-info-icon"></i>
+              <p class="con-info-text">aslamdien90@gamil.com</p>
+            </div>
+          </div>
+        </div>
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/mjvjyyoo"
+          method="POST"
+        >
+        <input
+        class="contact-input"
+        type="text"
+        name="full_name"
+        id="full_name"
+        placeholder="Name"
+        required
+      />
+      <input
+        class="contact-input"
+        type="tel"
+        name="contact_no"
+        id="contact_no"
+        placeholder="Contact No"
+        required
+      />
+      <input
+        class="contact-input"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      />
+      <textarea
+        class="contact-input-msg"
+        name="message"
+        id="message"
+        placeholder="Type your message here"
+      ></textarea>
+      <button class="button" type="submit">Submit Information</button>
+    </form>
+      </div>
+    </section>
+    <footer>
+      <h3 class="foot">Made By Ayyoob Slamdien</h3>
+      <div class="g">
+        <i class="fab fa-github"></i>
+      </div>
+    </footer>
     <!-- Script tags under here -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="

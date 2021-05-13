@@ -15,11 +15,14 @@
   border-radius: 20px;
   margin-left: 20%;
   margin-right: 20%;
+  background: url(../images/NEuip.jpg);
 }
 
 .owl-carousel {
   background-image: url(../images/1*sHII9He7gMmoL5ngX315XA.png);
-  object-fit: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .owl-carousel .owl-item img {
@@ -28,7 +31,7 @@
   border-radius: 50%;
   margin-left: 5%;
   margin-right: 5%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .container-t {
@@ -56,6 +59,15 @@
 }
 
 .quote {
-  color: rgb(26, 24, 24);
+  color: rgb(255, 255, 255);
   font-size: 17px;
+}
+
+.fa-comment {
+  background: none;
+}
+
+.fa-comment:hover {
+  background: none;
+  color: black;
 }

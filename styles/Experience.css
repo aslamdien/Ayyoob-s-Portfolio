@@ -75,3 +75,10 @@
   background: none;
   color: black;
 }
+
+.line-e{
+  border: 1px solid #6d56c1;
+  width: 92%;
+  height: 1px;
+  margin-top: 20px;
+}

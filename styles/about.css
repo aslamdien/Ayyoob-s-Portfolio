@@ -3,18 +3,44 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 10%;
   font-size: 100px;
   margin-bottom: 5%;
 }
 
+
+#aboutme {
+  padding-top: 15px;
+}
+
+.about{
+  background: url(../images/backgro.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding-top:1% ;
+  padding-bottom: 1%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.file{
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-image: url(../images/8uLjyU.jpg);
+}
+
 .hob {
-    font-size: 40px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10%;
   margin-bottom: 5%;
+  color: white;
 }
 .row {
   display: -webkit-box;
@@ -26,6 +52,18 @@
   flex-wrap: wrap;
   margin-right: 15px;
   margin-left: 15px;
+}
+
+.row2{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .img4 {
@@ -44,10 +82,7 @@ dl {
   margin-bottom: 1rem;
   box-sizing: inherit;
   font-weight: 400;
-}
-
-.info-list.info-list_opacity-titles {
-  opacity: 0.4;
+  color: white;
 }
 
 .info-list dt {
@@ -87,6 +122,7 @@ dl {
 
 .hob-name {
   font-size: 20px;
+  color: white;
 }
 
 .things {
@@ -142,11 +178,11 @@ dl {
 }
 
 .fas:hover {
-  background-color: red;
+  background: red;
   color: white;
 }
 
 .fab:hover {
-  background-color: red;
+  background: red;
   color: white;
 }
