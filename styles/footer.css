@@ -12,8 +12,7 @@ footer {
   font-size: 40px;
 }
 
-@media screen and (max-width: 800px) {
-
+@media screen and (max-width: 860px) {
   nav {
     height: 4vh;
     width: 51vh;
@@ -83,88 +82,88 @@ footer {
     width: 139px;
   }
 
-  .hob-name{
-      font-size: 14px;
+  .hob-name {
+    font-size: 14px;
   }
 
-  #work{
-      padding-top: 24px;
+  #work {
+    padding-top: 24px;
   }
 
-  .col-md-8{
+  .col-md-8 {
     max-width: 90.667%;
   }
 
-  .par{
+  .par {
     line-height: 25px;
   }
 
-  .line-e{
-      width: 99%;
+  .line-e {
+    width: 99%;
   }
 
-  .skill{
-      font-size: 0;
+  .skill {
+    font-size: 0;
     max-width: 90%;
   }
 
-  .project-card .project-card__info{
-      padding: 20px;
+  .project-card .project-card__info {
+    padding: 20px;
   }
 
-  .project-card .project-card__img img{
-      height: 327px;
+  .project-card .project-card__img img {
+    height: 327px;
   }
 
-  #testimonial{
-      height: 72vh;
+  #testimonial {
+    height: 72vh;
   }
 
- .owl-carousel .owl-item img{
+  .owl-carousel .owl-item img {
     height: 150px;
     width: 150px;
- }
+  }
 
- .testimonial{
-     height: 25vh;
-     margin-left: 0;
-     margin-right: 0;
- }
+  .testimonial {
+    height: 25vh;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
- .progress-list{
+  .progress-list {
     padding: 15px;
     margin-left: 0;
     margin-right: 0;
- }
+  }
 
- .progress-list p{
-     font-size: 12px;
- }
+  .progress-list p {
+    font-size: 12px;
+  }
 
- .quote{
+  .quote {
     font-size: 14px;
     line-height: 30px;
- }
+  }
 
- .people{
-     font-size: 26px;
- }
+  .people {
+    font-size: 26px;
+  }
 
- .header{
+  .header {
     height: 3vh;
- }
+  }
 
- .con-info{
-     margin-left: 270px;
- }
+  .con-info {
+    margin-left: 270px;
+  }
 
- .con-info-sub{
+  .con-info-sub {
     margin-top: 0;
     font-size: 22px;
     margin-bottom: 10px;
- }
+  }
 
- .box1{
+  .box1 {
     flex-direction: revert;
     height: 0%;
     width: 0%;
@@ -172,16 +171,13 @@ footer {
     margin-left: 0%;
     padding-left: 0;
     padding-right: 0;
- }
+  }
 
- .contactpage{
-     margin-bottom: -90px;
- }
- #contact-form{
+  .contactpage {
+    margin-bottom: -90px;
+  }
+  #contact-form {
     height: 32vh;
     width: 80%;
- }
+  }
 }
-
-
-
