@@ -8,24 +8,23 @@
   margin-bottom: 5%;
 }
 
-
 #aboutme {
   padding-top: 15px;
 }
 
-.about{
+.about {
   background: url(../images/backgro.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
-  padding-top:1% ;
+  padding-top: 1%;
   padding-bottom: 1%;
   margin-left: 25px;
   margin-right: 25px;
 }
 
-.file{
+.file {
   padding: 1%;
   display: flex;
   align-items: center;
@@ -54,7 +53,7 @@
   margin-left: 15px;
 }
 
-.row2{
+.row2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +104,7 @@ dl {
   margin-left: 17%;
   margin-right: 16%;
   font-size: 20px;
-  padding: 15px ;
+  padding: 15px;
   line-height: 40px;
   gap: 50px;
   background: rgba(255, 255, 255, 0.25);
@@ -148,6 +147,7 @@ dl {
   font-size: 240%;
   margin-bottom: 25px;
   border-radius: 50px;
+  padding-top: 20px;
 }
 
 .fa-gamepad {
@@ -160,6 +160,7 @@ dl {
   font-size: 240%;
   margin-bottom: 25px;
   border-radius: 50px;
+  padding-top: 20px;
 }
 
 .fa-swimmer {
@@ -172,6 +173,7 @@ dl {
   font-size: 240%;
   margin-bottom: 25px;
   border-radius: 50px;
+  padding-top: 20px;
 }
 
 .fa-biking {
@@ -184,9 +186,10 @@ dl {
   font-size: 240%;
   margin-bottom: 25px;
   border-radius: 50px;
+  padding-top: 20px;
 }
 
-.fa-address-card{
+.fa-address-card {
   color: white;
   text-shadow: 8px 10px 13px black;
 }
