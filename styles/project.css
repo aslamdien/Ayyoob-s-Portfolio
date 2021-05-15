@@ -49,6 +49,13 @@
   object-fit: fill;
   height: 352px;
 }
+.project-card .project-card__img .img-t{
+  width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: fill;
+height: 370px;
+}
 
 img {
   border-style: none;
@@ -63,6 +70,7 @@ img {
 .project-card .project-card__info {
   border: 1px solid #000000;
   padding: 50px 50px 40px 30px;
+  background-color: white;
 }
 
 .col-lg-7 {
@@ -141,6 +149,7 @@ ul {
   justify-content: center;
   display: flex;
   margin-bottom: 5px;
+  border: 2px solid black;
 }
 
 .link:hover {

@@ -105,6 +105,7 @@ dl {
   margin-left: 17%;
   margin-right: 16%;
   font-size: 20px;
+  padding: 15px ;
   line-height: 40px;
   gap: 50px;
   background: rgba(255, 255, 255, 0.25);
@@ -138,51 +139,54 @@ dl {
 }
 
 .fa-tv {
+  background: green;
   height: 100px;
   width: 100px;
-  align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 240%;
   margin-bottom: 25px;
+  border-radius: 50px;
 }
 
 .fa-gamepad {
+  background: green;
   height: 100px;
   width: 100px;
-  align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 240%;
   margin-bottom: 25px;
+  border-radius: 50px;
 }
 
 .fa-swimmer {
+  background: green;
   height: 100px;
   width: 100px;
-  align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 240%;
   margin-bottom: 25px;
+  border-radius: 50px;
 }
 
 .fa-biking {
+  background: green;
   height: 100px;
   width: 100px;
-  align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 240%;
   margin-bottom: 25px;
+  border-radius: 50px;
 }
 
-.fas:hover {
-  background: red;
+.fa-address-card{
   color: white;
-}
-
-.fab:hover {
-  background: red;
-  color: white;
+  text-shadow: 8px 10px 13px black;
 }

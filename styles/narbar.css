@@ -22,28 +22,79 @@ nav {
 a {
   color: white;
   list-style-type: none;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .nav-links {
+  position: relative;
   font-family: serif;
-  font-size: 20px;
+  font-size: 30px;
   top: 100;
   left: 0;
   display: inline-block;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   list-style-type: none;
-  padding:10px;
+  padding: 10px;
   transition: all 0.2s linear;
 }
 
 .nav-links:hover {
-  background-color: green;
+  background: green;
   color: black;
   padding: 22px;
 }
+
+.nav-links:hover .nav-home:after {
+  content: "home";
+  text-transform: uppercase;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+}
+
+.nav-links:hover .nav-about:after {
+  content: "About Me";
+  text-transform: uppercase;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+}
+
+.nav-links:hover .nav-work:after {
+  content: "Work";
+  text-transform: uppercase;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+}
+
+.nav-links:hover .nav-port:after {
+  content: "Projects";
+  text-transform: uppercase;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+}
+
+.nav-links:hover .nav-test:after {
+  content: "Testimonials";
+  text-transform: uppercase;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+}
+
+.nav-links:hover .nav-cont:after {
+  content: "Contact";
+  text-transform: uppercase;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+}
+
 .nav-btn {
   top: 20px;
   right: 20px;
