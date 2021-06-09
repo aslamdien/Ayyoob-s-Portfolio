@@ -52,8 +52,7 @@ footer {
   }
 
   .img1 {
-    height: 30vh;
-    width: 30vh;
+display: none;
   }
 
   .hello {
