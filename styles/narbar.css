@@ -10,7 +10,7 @@ nav {
   top: 0;
   background: black;
   width: 199vh;
-  height: 8vh;
+  height: 7vh;
   text-decoration-line: none;
   display: flex;
   justify-content: flex-start;
@@ -27,7 +27,7 @@ a {
 
 .nav-links {
   position: relative;
-  font-family: serif;
+  font-family: Roboto Mono, monospace;
   font-size: 30px;
   top: 100;
   left: 0;
@@ -42,58 +42,10 @@ a {
 }
 
 .nav-links:hover {
-  background: green;
+  background: rgb(202, 8, 8);
   color: black;
-  padding: 22px;
 }
 
-.nav-links:hover .nav-home:after {
-  content: "home";
-  text-transform: uppercase;
-  position: absolute;
-  top: 100%;
-  left: -10%;
-}
-
-.nav-links:hover .nav-about:after {
-  content: "About Me";
-  text-transform: uppercase;
-  position: absolute;
-  top: 100%;
-  left: -10%;
-}
-
-.nav-links:hover .nav-work:after {
-  content: "Work";
-  text-transform: uppercase;
-  position: absolute;
-  top: 100%;
-  left: -10%;
-}
-
-.nav-links:hover .nav-port:after {
-  content: "Projects";
-  text-transform: uppercase;
-  position: absolute;
-  top: 100%;
-  left: -10%;
-}
-
-.nav-links:hover .nav-test:after {
-  content: "Testimonials";
-  text-transform: uppercase;
-  position: absolute;
-  top: 100%;
-  left: -10%;
-}
-
-.nav-links:hover .nav-cont:after {
-  content: "Contact";
-  text-transform: uppercase;
-  position: absolute;
-  top: 100%;
-  left: -10%;
-}
 
 .nav-btn {
   top: 20px;

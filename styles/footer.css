@@ -14,22 +14,41 @@ footer {
 
 @media screen and (max-width: 500px) {
   nav {
-    height: 16vh;
+    height: 6vh;
     width: 75vh;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .nav-links {
-    font-size: 30px;
-    margin-right: 49px;
+    font-size: 13px;
+    margin-right: -14px;
   }
-
 }
-@media screen and (max-width: 500px){  
+@media screen and (max-width: 500px) {
   #homepage {
     padding-top: 50px;
     padding-bottom: 100px;
     padding: 200px;
+  }
+
+  .me {
+    font-size: 40px;
+    line-height: 38px;
+  }
+
+  .file {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  dl {
+    display: inherit;
+    font-weight: bold;
+  }
+
+  .info-list {
+    font-size: 10px;
+    line-height: 10px;
   }
 
   .img1 {
@@ -51,8 +70,10 @@ footer {
   }
 
   .img4 {
-    width: 10vh;
-    height: 10vh;
+    width: 33vh;
+    height: 30vh;
+    margin-bottom: 10px;
+    top: -1px;
   }
 
   .info-list {
@@ -61,8 +82,8 @@ footer {
   }
 
   .row2 {
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .bio {
@@ -71,6 +92,7 @@ footer {
     padding: 10px;
     margin-left: 13px;
     margin-right: 15px;
+    gap: 20px;
   }
 
   .hob {
@@ -78,14 +100,26 @@ footer {
     margin-top: 4%;
   }
 
+  .fa-gamepad,
+  .fa-biking,
+  .fa-swimmer,
+  .fa-tv {
+    height: 60px;
+    width: 60px;
+    font-size: 150%;
+    margin-bottom: 9px;
+    padding: inherit;
+  }
+
   .things {
     margin-left: 0px;
     margin-right: 0px;
-    width: 139px;
+    width: 84px;
   }
 
   .hob-name {
     font-size: 14px;
+    line-height: 20px;
   }
 
   #work {
@@ -109,60 +143,92 @@ footer {
     max-width: 90%;
   }
 
+  .pro {
+    display: block;
+    width: 622px;
+  }
+
+  .tag {
+    display: block ruby;
+  }
+
   .project-card .project-card__info {
     padding: 20px;
   }
 
   .project-card .project-card__img img {
     height: 327px;
+    width: 140%;
   }
 
-  #testimonial {
-    height: 72vh;
+  .project-card .project-card__img .img-t {
+    width: 140%;
   }
 
   .owl-carousel .owl-item img {
-    height: 150px;
-    width: 150px;
+    height: 86px;
+    width: 86px;
   }
 
   .testimonial {
-    height: 25vh;
-    margin-left: 0;
-    margin-right: 0;
+    height: 51vh;
+    margin-left: 0px;
+    flex-direction: column;
+    width: 231px;
   }
 
   .progress-list {
     padding: 15px;
     margin-left: 0;
     margin-right: 0;
+    display: block;
   }
 
   .progress-list p {
     font-size: 12px;
   }
+  .col-md-5{
+    max-width: 98.667%;
+
+  }
 
   .quote {
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 11px;
+    line-height: 14px;
   }
 
   .people {
-    font-size: 26px;
+    font-size: 14px;
+  }
+
+  .job {
+    font-size: 15px;
   }
 
   .header {
-    height: 3vh;
+    height: 54vh;
+  }
+
+  .page-header-container {
+    line-height: 49px;
+  }
+
+  .page-heading2 {
+    font-size: 42px;
+  }
+
+  .page-subtitle {
+    font-size: 32px;
+    display: flex;
   }
 
   .con-info {
-    margin-left: 270px;
+    margin-left: 320px;
   }
 
   .con-info-sub {
-    margin-top: 0;
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 0px;
   }
 
   .box1 {
@@ -175,11 +241,26 @@ footer {
     padding-right: 0;
   }
 
+  .page-subtitle {
+    font-size: 32px;
+    display: flex;
+  }
+
   .contactpage {
     margin-bottom: -90px;
   }
   #contact-form {
-    height: 32vh;
-    width: 80%;
+    height: 53vh;
+    width: 89%;
+    margin-top: 240px;
+    margin-bottom: 100px;
+  }
+
+  #contact {
+    padding-bottom: 153px;
+  }
+
+  footer {
+    padding: 22px;
   }
 }

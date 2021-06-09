@@ -45,7 +45,6 @@
   display: block ruby;
   flex-direction: column;
   justify-content: center;
-  color: white;
 }
 
 .page-subtitle {
@@ -69,7 +68,6 @@
   margin-top: 5vh;
   gap: 30px;
   font-size: 20px;
-  color: white;
 }
 
 .icons-contact {
@@ -182,10 +180,4 @@
 .fa-phone-volume:hover {
   background: none;
   color: black;
-}
-
-.fas {
-  display: flex;
-  color: white;
-  text-shadow: 8px 10px 13px black;
 }

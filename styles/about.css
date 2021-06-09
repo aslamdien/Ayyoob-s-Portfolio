@@ -1,10 +1,11 @@
 .me {
+  font-family: Roboto Mono, monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 10%;
-  font-size: 100px;
+  font-size: 60px;
   margin-bottom: 5%;
 }
 
@@ -13,10 +14,6 @@
 }
 
 .about {
-  background: url(../images/backgro.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 20px;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -68,6 +65,10 @@
 .img4 {
   width: 300px;
   height: 300px;
+  position: relative;
+  top: 40px;
+  right: 20px;
+  border-radius: 10px;
 }
 
 .info-list {
@@ -100,9 +101,9 @@ dl {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 6%;
-  margin-left: 17%;
-  margin-right: 16%;
+  margin-top: 4%;
+  margin-left: 13%;
+  margin-right: 13%;
   font-size: 20px;
   padding: 15px;
   line-height: 40px;
@@ -122,7 +123,7 @@ dl {
 
 .hob-name {
   font-size: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .things {
