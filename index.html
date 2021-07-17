@@ -315,12 +315,13 @@
         <h1 class="me">My Projects</h1>
       </div>
       <div class="button-container">
-        <button onclick="filterCards('ALL')">All</button>
-        <button onclick="filterCards('HTML/CSS')">HTML/CSS</button>
-        <button onclick="filterCards('JavaScript')">JavaScript</button>
-        <button onclick="filterCards('Python')">Python</button>
+        <button class="Btn" onclick="filterCards('All')">All</button>
+        <button class="Btn" onclick="filterCards('HTML/CSS')">HTML/CSS</button>
+        <button class="Btn" onclick="filterCards('JavaScript')">JavaScript</button>
+        <button class="Btn" onclick="filterCards('Python')">Python</button>
       </div>
-      <div class="project-cards"></div>
+      <div class="project-cards">
+      </div>
     </section>
     <!-- Testimnials -->
     <section id="testimonial" class="section-t">
@@ -459,6 +460,7 @@
       <h3 class="foot">Made By Ayyoob Slamdien</h3>
       <div class="g">
         <a href="https://github.com/aslamdien"><i class="fab fa-github"></i></a>
+        <a href="https://codepen.io/aslamdien90/pens/public"><i class="fab fa-codepen"></i></a>
       </div>
     </footer>
     <!-- Script tags under here -->
@@ -483,7 +485,7 @@
           items: 1,
           margin: 50,
           loop: true,
-          stagePadding: 100,
+          stagePadding: 1,
           dots: false,
           autoplay: true,
         });

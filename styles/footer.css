@@ -1,3 +1,20 @@
+.Btn {
+  background: #603aca;
+  color: white;
+  border: 1px solid black;
+  border-radius: 13px;
+  height: 37px;
+  width: 98px;
+  position: relative;
+  bottom: 10px;
+  left: 19px;
+  font-size: 18px;
+}
+
+.Btn:hover {
+  box-shadow: inset 20px 20px 60px #5231ac, inset -20px -20px 60px #6e43e8;
+}
+
 footer {
   background: black;
   color: white;
@@ -28,9 +45,12 @@ footer {
   #homepage {
     padding-top: 50px;
     padding-bottom: 100px;
-    padding: 200px;
-    width: 67vh;
+    padding: 72px;
+    width: 50vh;
+  }
 
+  .row {
+    margin-left: -139px;
   }
 
   .me {
@@ -145,8 +165,9 @@ footer {
   }
 
   .pro {
-    display: block;
-    width: 622px;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
   }
 
   .tag {
@@ -160,6 +181,8 @@ footer {
   .project-card .project-card__img img {
     height: 327px;
     width: 140%;
+    position: relative;
+    right: 50px;
   }
 
   .project-card .project-card__img .img-t {
@@ -260,7 +283,28 @@ footer {
     padding-bottom: 153px;
   }
 
+  .Btn {
+    height: 31px;
+    width: 70px;
+    font-size: 12px;
+  }
+
   footer {
     padding: 22px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    height: 6vh;
+    width: 66vh;
+  }
+  .nav-links {
+    font-size: 11px;
+  }
+  .Btn {
+    height: 31px;
+    width: 70px;
+    font-size: 12px;
   }
 }
