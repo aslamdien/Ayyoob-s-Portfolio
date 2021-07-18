@@ -64,7 +64,31 @@ let projects = [
     title2: "Links:",
     githubURL: "https://github.com/aslamdien/Tkinter",
     liveProjectURL:
-      "https://github.com/aslamdien/Tkinter/blob/main/Python_tkinter.py",
+      "https://replit.com/@aslamdien/Tkinter-3#.replit",
+  },
+  {
+    imgURL: "./images/Pokedex.png",
+    imgAlt: "project.png",
+    title: "Pokedex Project",
+    techStack: 'JavaScript',
+    description:
+      "This Is My Pokedex. It is the First JavaScript Project I made using Api with JavaScript and a little HTML and CSS.",
+    title2: "Links:",
+    githubURL: "https://github.com/aslamdien/JavaScript_Pokedex",
+    liveProjectURL:
+      "https://serene-goodall-983621.netlify.app",
+  },
+  {
+    imgURL: "./images/currency_convertor1.png",
+    imgAlt: "project.png",
+    title: "Currency Convertor",
+    techStack: 'Python',
+    description:
+      "This is my Currency Convertor. It can allow you to convert any amount from one curreny to another. It was made with Python programming and Tkinter and Api.",
+    title2: "Links:",
+    githubURL: "https://github.com/aslamdien/currency_convertor1",
+    liveProjectURL:
+      "https://replit.com/@aslamdien/currencyconvertor1#currency_convertor_challange.py",
   },
 ];
 
