@@ -29,7 +29,6 @@ body {
   width: 0.5vh;
   border-radius: 50px;
   background: #7700ff;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   margin-right: 5vh;
 }
 
@@ -63,6 +62,8 @@ body {
   justify-content: center;
   height: 60px;
   width: 180px;
+  position: relative;
+  left: 80px;
 }
 
 .download:hover {
