@@ -54,7 +54,7 @@ footer {
   }
 
   .me {
-    font-size: 40px;
+    font-size: 32px;
     line-height: 38px;
   }
 
@@ -83,11 +83,7 @@ footer {
   }
 
   .line {
-    height: 40vh;
-    margin-right: 5vh;
-    height: 24vh;
-    margin-right: 2vh;
-    margin-left: 2vh;
+  display: none;
   }
 
   .img4 {
@@ -168,6 +164,8 @@ footer {
     width: 610px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    right: 109px;
   }
 
   .tag {
@@ -176,13 +174,15 @@ footer {
 
   .project-card .project-card__info {
     padding: 20px;
+    position: relative;
+    left: 113px;
   }
 
   .project-card .project-card__img img {
     height: 327px;
     width: 140%;
     position: relative;
-    right: 50px;
+    left: 62px;
   }
 
   .project-card .project-card__img .img-t {
@@ -294,17 +294,53 @@ footer {
   }
 }
 
+@media screen and (max-width: 430px){
+  #homepage{
+    width: 59vh;
+  }
+  .home-icons{
+    justify-content: space-between;
+  }
+  .download{
+    left: 49px;
+  }
+  }
+}
+
 @media screen and (max-width: 400px) {
   nav {
-    height: 6vh;
-    width: 66vh;
+    height: 7vh;
+    width: 59vh;
   }
   .nav-links {
-    font-size: 11px;
+    font-size: 11.5px;
+  }
+  #homepage{
+    width: 59vh;
+  }
+  .home{
+    margin-top: 0px;
+
+  }
+
+  .line{
+    display: none;
+  }
+
+  .download{
+    display: flex;
+    left: 53px;
   }
   .Btn {
     height: 31px;
     width: 70px;
     font-size: 12px;
   }
+}
+
+@media screen and (max-width: 330px){
+  .nav-links {
+    font-size: 11px;
+    }
+  
 }

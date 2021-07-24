@@ -10,7 +10,7 @@ nav {
   top: 0;
   background: black;
   width: 199vh;
-  height: 7vh;
+  height: 6vh;
   text-decoration-line: none;
   display: flex;
   justify-content: flex-start;
@@ -42,7 +42,7 @@ a {
 }
 
 .nav-links:hover {
-  background: rgb(202, 8, 8);
+  background: #7700ff;;
   color: black;
 }
 

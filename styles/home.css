@@ -9,7 +9,7 @@ body {
 }
 
 #homepage {
-  padding-top: 50px;
+  padding-top: 90px;
   background: url(../images/8uLjyU.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 57px;
 }
 
 .line {
@@ -55,15 +54,13 @@ body {
 .download {
   border-radius: 50px;
   background: #680fb1;
-  margin-top: 20px;
-  padding: 20px;
-  display: ruby-base;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 60px;
   width: 180px;
   position: relative;
-  left: 80px;
+  left: 125px;
 }
 
 .download:hover {

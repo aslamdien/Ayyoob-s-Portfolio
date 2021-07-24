@@ -22,7 +22,7 @@ let projects = [
     liveProjectURL: "https://stoic-feynman-8ad41d.netlify.app/",
   },
   {
-    imgURL: "./images/Screenshot_2021-05-15_Testimonials.png",
+    imgURL: "./images/7Testimonials.png",
     imgAlt: "project.png",
     title: "Testimonials",
     techStack: 'HTML/CSS',
@@ -79,7 +79,7 @@ let projects = [
       "https://serene-goodall-983621.netlify.app",
   },
   {
-    imgURL: "./images/currency_convertor1.png",
+    imgURL: "./images/currencyconvertor1.png",
     imgAlt: "project.png",
     title: "Currency Convertor",
     techStack: 'Python',
