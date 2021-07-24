@@ -41,6 +41,42 @@ footer {
     margin-right: -14px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  nav {
+    height: 7vh;
+    width: 59vh;
+  }
+  .nav-links {
+    font-size: 11px;
+  }
+  #homepage {
+    width: 59vh;
+  }
+  .home {
+    margin-top: 0px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .download {
+    display: flex;
+    left: 53px;
+  }
+  .Btn {
+    height: 31px;
+    width: 70px;
+    font-size: 12px;
+  }
+
+  .testimonial {
+    position: relative;
+    left: 63px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   #homepage {
     padding-top: 50px;
@@ -83,7 +119,7 @@ footer {
   }
 
   .line {
-  display: none;
+    display: none;
   }
 
   .img4 {
@@ -199,6 +235,8 @@ footer {
     margin-left: 0px;
     flex-direction: column;
     width: 231px;
+    position: relative;
+    left: 63px;
   }
 
   .progress-list {
@@ -294,53 +332,28 @@ footer {
   }
 }
 
-@media screen and (max-width: 430px){
-  #homepage{
+@media screen and (max-width: 430px) {
+  #homepage {
     width: 59vh;
   }
-  .home-icons{
+  .home-icons {
     justify-content: space-between;
   }
-  .download{
+  .download {
     left: 49px;
   }
-  }
 }
 
-@media screen and (max-width: 400px) {
-  nav {
-    height: 7vh;
-    width: 59vh;
-  }
+@media screen and (max-width: 330px) {
   .nav-links {
-    font-size: 11.5px;
+    font-size: 10px;
   }
-  #homepage{
-    width: 59vh;
-  }
-  .home{
-    margin-top: 0px;
-
+  .header {
+    height: 70vh;
   }
 
-  .line{
-    display: none;
-  }
-
-  .download{
-    display: flex;
-    left: 53px;
-  }
   .Btn {
-    height: 31px;
-    width: 70px;
-    font-size: 12px;
+    width: 59px;
+    font-size: 10px;
   }
-}
-
-@media screen and (max-width: 330px){
-  .nav-links {
-    font-size: 11px;
-    }
-  
 }
