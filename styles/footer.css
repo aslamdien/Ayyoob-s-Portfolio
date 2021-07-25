@@ -29,6 +29,85 @@ footer {
   font-size: 40px;
 }
 
+@media screen and (max-width: 800px) {
+  .img1 {
+    display: none;
+  }
+
+  nav {
+    padding-left: 28px;
+  }
+  #homepage {
+    width: 133%;
+  }
+  #aboutme {
+    position: relative;
+    left: 116px;
+  }
+  .bio {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .things {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 170px;
+  }
+  #work {
+    position: relative;
+    left: 12%;
+  }
+  .resume-list .resume-list__block {
+    width: 142%;
+    position: relative;
+    right: 76px;
+  }
+
+  .skill {
+    max-width: 85%;
+    position: relative;
+    left: 41px;
+  }
+  .progress-list{
+    width: 120%;
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.container{
+  position: relative;
+  left: 13%;
+}
+.project-card .project-card__img img {
+  height: 377px;
+}
+#testimonial{
+  position: relative;
+  left: 12%;
+}
+.owl-carousel{
+  width: 130%;
+}
+.testimonial{
+  margin: 0;
+  position: relative;
+  left: 15%;
+}
+.contactpage{
+  width: 92vh;
+}
+.header{
+  position: relative;
+  left: 90px;
+}
+footer{
+  width: 130%;
+}
+}
+
 @media screen and (max-width: 500px) {
   nav {
     height: 8vh;
@@ -346,7 +425,7 @@ footer {
 
 @media screen and (max-width: 330px) {
   .nav-links {
-    font-size: 10px;
+    font-size: 9px;
   }
   .header {
     height: 70vh;
@@ -355,5 +434,21 @@ footer {
   .Btn {
     width: 59px;
     font-size: 10px;
+  }
+  .download {
+    left: 5px;
+  }
+  .free-time {
+    gap: 0;
+  }
+  .pro {
+    width: 539px;
+  }
+  .project-card .project-card__img img {
+    height: 244px;
+    left: 80px;
+  }
+  .project-card .project-card__info {
+    left: 125px;
   }
 }
