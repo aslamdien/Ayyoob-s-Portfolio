@@ -3,7 +3,7 @@ let projects = [
     imgURL: "./images/contact.png",
     imgAlt: "project.png",
     title: "Contact Form",
-    techStack: 'HTML/CSS',
+    techStack: "HTML/CSS",
     description:
       "This was the first Project I work. It was made using Html, CSS and a web site know as 'formspree.oi'",
     title2: "Links:",
@@ -14,7 +14,7 @@ let projects = [
     imgURL: "./images/timeline.png",
     imgAlt: "project.png",
     title: "Timeline",
-    techStack: 'HTML/CSS',
+    techStack: "HTML/CSS",
     description:
       "This the layout of a timeline I created. It was with HTML, CSS and using code from 'michalsnik.github.io/aos/'",
     title2: "Links:",
@@ -25,7 +25,7 @@ let projects = [
     imgURL: "./images/7Testimonials.png",
     imgAlt: "project.png",
     title: "Testimonials",
-    techStack: 'HTML/CSS',
+    techStack: "HTML/CSS",
     description:
       "This the layout of a timeline I created. It was with HTML, CSS and JavaScript",
     title2: "Links:",
@@ -36,7 +36,7 @@ let projects = [
     imgURL: "./images/project-cards.png",
     imgAlt: "project.png",
     title: "Project Cards",
-    techStack: 'HTML/CSS',
+    techStack: "HTML/CSS",
     description:
       "These are my project cards with both the Live and Github link attach. This only contains the first three project above.",
     title2: "Links:",
@@ -58,42 +58,39 @@ let projects = [
     imgURL: "./images/Screenshot_2021-05-15_Tkinter-3-min.png",
     imgAlt: "project.png",
     title: "My First Python Project",
-    techStack: 'Python',
+    techStack: "Python",
     description:
       "This was the first python project I created. It was a simple two number adding calculator, it was made with Python programming and Tkinter.",
     title2: "Links:",
     githubURL: "https://github.com/aslamdien/Tkinter",
-    liveProjectURL:
-      "https://replit.com/@aslamdien/Tkinter-3#.replit",
+    liveProjectURL: "https://replit.com/@aslamdien/Tkinter-3#.replit",
   },
   {
     imgURL: "./images/Pokedex.png",
     imgAlt: "project.png",
     title: "Pokedex Project",
-    techStack: 'JavaScript',
+    techStack: "JavaScript",
     description:
       "This Is My Pokedex. It is the First JavaScript Project I made using Api with JavaScript and a little HTML and CSS.",
     title2: "Links:",
     githubURL: "https://github.com/aslamdien/JavaScript_Pokedex",
-    liveProjectURL:
-      "https://serene-goodall-983621.netlify.app",
+    liveProjectURL: "https://serene-goodall-983621.netlify.app",
   },
   {
     imgURL: "./images/currencyconvertor1.png",
     imgAlt: "project.png",
     title: "Currency Convertor",
-    techStack: 'Python',
+    techStack: "Python",
     description:
       "This is my Currency Convertor. It can allow you to convert any amount from one curreny to another. It was made with Python programming and Tkinter and Api.",
     title2: "Links:",
     githubURL: "https://github.com/aslamdien/currency_convertor1",
-    liveProjectURL:
-      "https://replit.com/@aslamdien/currencyconvertor1#currency_convertor_challange.py",
+    liveProjectURL: "https://replit.com/@aslamdien/currencyconvertor1#.replit",
   },
 ];
 
 function createCard(card) {
-  let createCard =`
+  let createCard = `
         <div class="row project-card pro" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites" techStack=${card.techStack}>
           <div class="col-md-6 col-lg-5 project-card__img">
             <img class="img-contact" src=${card.imgURL} alt=${card.imgAlt}>
