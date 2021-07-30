@@ -100,8 +100,8 @@ function createCard(card) {
             <p class="project-card__description">${card.description}</p>
             <p class="project-card__stack">Links:</p>
             <ul class="tag">
-              <li class="link"><a href=${card.liveProjectURL}><i class="far fa-eye" aria-hidden="true"></i> Live</a></li>
-              <li class="link"><a href=${card.githubURL}><i class="fab fa-github" aria-hidden="true"></i>GitHub</a></li>
+              <li class="link"><a href=${card.liveProjectURL} target="_blank"><i class="far fa-eye" aria-hidden="true"></i> Live</a></li>
+              <li class="link"><a href=${card.githubURL} target="_blank"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a></li>
             </ul>
         </div>
         `;
