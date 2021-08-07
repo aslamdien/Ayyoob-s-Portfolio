@@ -23,6 +23,11 @@
   box-sizing: inherit;
 }
 
+.Exp{
+position: relative;
+top:101px
+}
+
 .exp {
   display: flex;
   flex-direction: column;

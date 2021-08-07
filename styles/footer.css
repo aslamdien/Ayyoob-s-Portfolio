@@ -30,6 +30,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  .Exp{
+    top:0px
+  }
+  
   .img1 {
     display: none;
   }
