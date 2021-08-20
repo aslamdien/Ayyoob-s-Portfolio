@@ -10,11 +10,12 @@ body {
 
 #homepage {
   padding-top: 90px;
-  background: url(../images/8uLjyU.jpg);
+  background: url(../images/8uLjyU.jp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 100px;
+  color: white;
 }
 
 .home {
