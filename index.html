@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="styles/home.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/Experience.css" />
-    <link rel="stylesheet" href="styles/skills.css">
-    <link rel="stylesheet" href="styles/project.css">
-    <link rel="stylesheet" href="styles/testmonial.css">
-    <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/project.css" />
+    <link rel="stylesheet" href="styles/testmonial.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/4d777e0ebe.js"
       crossorigin="anonymous"
@@ -34,34 +34,43 @@
   <body>
     <!-- Narbar section -->
     <nav>
-      <ul>
-        <li class="nav-links"><a class="nav-home" href="#homepage">Home</a></li>
-        <li class="nav-links"><a class="nav-about" href="#aboutme">About</a></li>
-        <li class="nav-links"><a class="nav-work" href="#work">Experience</a></li>
-        <li class="nav-links"><a class="nav-port" href="#projects">Projects</a></li>
-        <li class="nav-links">
-          <a class="nav-test" href="#testimonial">Testimonials</a>
-        </li>
-        <li class="nav-links"><a class="nav-cont" href="#contact">Contact</a></li>
-      </ul>
+      <div class="bar"><i class="fas fa-bars"></i></div>
+      <div>
+        <ul class="location">
+          <li class="nav-links">
+            <a class="nav-home" href="#homepage">Home</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-about" href="#aboutme">About</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-work" href="#work">Experience</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-port" href="#projects">Projects</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-test" href="#testimonial">Testimonials</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-cont" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- Home Page/landing -->
-    <section id="homepage" class="home">
-      <div class="line"></div>
+    <section id="homepage">
       <div class="intro">
         <div class="name">
           <div class="hello">
             <h5>Hello, My Name is</h5>
             <h1>Ayyoob Slamdien</h1>
             <h4>Aspiring Jnr. Web Developer</h4>
-            <div class="home-icons">
-              <i class="fas fa-phone-alt"></i>
-              <i class="fab fa-whatsapp"></i>
-              <i class="fas fa-envelope"></i>
-            </div>
           </div>
           <div class="download">
-            <a href="./images/Curriculum Vitae of Ayyoob.pdf"download><i class="fas fa-download"></i> Download CV</a>
+            <a href="./images/Curriculum Vitae of Ayyoob Slamdien.pdf" download
+              ><i class="fas fa-download"></i> Download CV</a
+            >
           </div>
         </div>
         <div class="img">
@@ -75,35 +84,33 @@
         <h1 class="me">About Me</h1>
       </div>
       <div class="about row2">
-        <div class="file">        
+        <div class="file">
           <div>
-          <img
-            class="img4"
-            src="./images/image4-removebg-preview.png"
-            alt="avatar"
-          />
+            <img
+              class="img4"
+              src="./images/image4-removebg-preview.png"
+              alt="avatar"
+            />
+          </div>
+          <div class="info">
+            <dl class="info-list info-list_opacity-titles">
+              <dt>DOB:</dt>
+              <dd>16/08/1998</dd>
+              <dt>Phone:</dt>
+              <dd>
+                <a href="tel:+27614170272">(+27)61 417-0272</a>
+              </dd>
+              <dt>Email:</dt>
+              <dd>
+                <a href="mailto:aslamdien90@gmail.com">aslamdien90@gmail.com</a>
+              </dd>
+              <dt>Address:</dt>
+              <dd>
+                <address>Cape Town, South Africa</address>
+              </dd>
+            </dl>
+          </div>
         </div>
-        <div class="info">
-          <dl class="info-list info-list_opacity-titles">
-            <dt>DOB:</dt>
-            <dd>16/08/1998</dd>
-            <dt>Phone:</dt>
-            <dd>
-              <a href="tel:+27614170272">(+27)61 417-0272</a>
-            </dd>
-            <dt>Email:</dt>
-            <dd>
-              <a href="mailto:aslamdien90@gmail.com">aslamdien90@gmail.com</a>
-            </dd>
-            <dt>Address:</dt>
-            <dd>
-              <address>
-                Cape Town, South Africa
-              </address>
-            </dd>
-          </dl>
-        </div>
-      </div>
         <div class="bio">
           <p>
             I am a hard-working person, someone who prefers not to quit work
@@ -121,23 +128,28 @@
             just came naturally to me and made me feel more comfortable.
           </p>
         </div>
-        <div>
+        <div class="hobbies">
           <h1 class="hob">Hobbies</h1>
           <div class="free-time">
             <div class="things">
-              <i class="fas fa-biking"></i>
+              <div class="thing">
+                <i class="fas fa-biking"></i>
+              </div>
               <h3 class="hob-name">Cycle</h3>
             </div>
             <div class="things">
-              <i class="fas fa-swimmer"></i>
+              <div class="thing"><i class="fas fa-swimmer"></i></div>
+
               <h3 class="hob-name">Swimming</h3>
             </div>
             <div class="things">
-              <i class="fas fa-gamepad"></i>
+              <div class="thing"><i class="fas fa-gamepad"></i></div>
+
               <h3 class="hob-name">PC and Mobile Games</h3>
             </div>
             <div class="things">
-              <i class="fas fa-tv"></i>
+              <div class="thing"><i class="fas fa-tv"></i></div>
+
               <h3 class="hob-name">Watching Movies, Series and Anime</h3>
             </div>
           </div>
@@ -146,173 +158,191 @@
     </section>
     <!-- Work -->
     <section id="work">
-      <div class = 'Exp'>
+      <div class="Exp">
         <h1 class="me">Experience & Skills</h1>
-      </div>     
+      </div>
       <div class="exp">
         <h2 class="mine">Work Experience</h2>
         <div class="col-md-8 section__resume resume-list">
-          <div data-aos="flip-up" 
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000">
-        <div class="resume-list__block">
-          <p class="resume-list__block-title"><i class="far fa-building"></i> HiH Technologies</p>
-          <p class="resume-list__block-date"><i class="far fa-calendar"></i> Jan 2020 - March 2020</p>
-          <p>Independent Dealer</p>
-          <p class="par">
-            I preformed in-house full factory demonstrations to provide market
-            research and to make sales on a product which was distributed. I
-            received training on said product before going out on the field to
-            clients homes to demonstrate the product.
-          </p>
-          <div class="line-e"></div>
-        </div>            
-        </div>         
-          <div data-aos="flip-up" 
-          data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000">
-          <div class="resume-list__block">
-            <p class="resume-list__block-title"><i class="far fa-building"></i> Enlight Technologies</p>
-            <p class="resume-list__block-date"><i class="far fa-calendar"></i> May 2017- Dec 2018</p>
-            <p>Internship</p>
-            <p class="par">
-              I assisted sub-contractors for Telkom installing and repair faults
-              on ASDL and Fibre lines. I learned Hands-on how to use the tools
-              and equipment needed to install ADSL and Fibre lines in home and
-              the areas where the problems occur in order to repair faults
-              either from the customers Home, a DP(<strong><i>Distribution Point</i></strong>), an SDC(<strong><i>Street Distrution Cabinet</i></strong>) or an MDF(<strong><i>Main Distribution Frame</i></strong>).
-            </p>
-            <div class="line-e"></div>
-          </div>
-          <div data-aos="flip-up"      data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
-          <div class="resume-list__block">
-            <p class="resume-list__block-title"><i class="far fa-building"></i> A.K Interiors</p>
-            <p class="resume-list__block-date"><i class="far fa-calendar"></i> Nov 2016 - Dec 2017</p>
-            <p>Trainee</p>
-            <p class="par">
-              Whenever we got the material (wood) needed I had to pack and sort
-              them buy size and colour. I assembled cupboards for kitchens,
-              living rooms and bedroom. Once all cupboards were complete I used
-              thinness and brooms to clean any pencil marks and saw dust left in
-              them.
-            </p>
-            <div class="line-e"></div>
-          </div>            
-          </div>                      
-        </div>
-        </div>
-        <div>
-          <h2 class="mine">Education</h2>
-        </div>
-        <div class="col-md-8 section__resume resume-list">
-        <div data-aos="flip-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">
-          <div class="resume-list__block">
-            <p class="resume-list__block-title"> LifeChoices Academy</p>
-            <p class="resume-list__block-date"><i class="far fa-calendar"></i> April 2021 - Present</p>
-            <p class="par">A Training fercility focusing on teaching youth Web Development and Coding, as well as focus on personal Development and leadership skills.
-            </p>
-            <div class="line-e"></div>
-          </div>          
-        </div>
-      <div data-aos="flip-up"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000">
-        <div class="resume-list__block">
-            <p class="resume-list__block-title">Enlight Technologies - Certified Fibre Technician</p>
-            <p class="resume-list__block-date"><i class="far fa-calendar"></i> May 2017 - Dec 2018</p>
-            <p class="par">I was given training in the use of installing FTTH (Fibre-To-The-Home) as well as the different forms of Fibre repair.    
-            </p>
-            <div class="line-e"></div>
-          </div>
-          <div data-aos="flip-up"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000">
+          <div
+            data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div class="resume-list__block">
-                <p class="resume-list__block-title">Iqra Academy - High School(Matric)</p>
-                <p class="resume-list__block-date"><i class="far fa-calendar"></i> January 2012 - Dec 2016</p>
-                <p class="par">This was the Seacondary School I attended for 5 years and as well as where I Matriculated with a Higher Ceritifate.
+              <p class="resume-list__block-title">
+                <i class="far fa-building"></i> LC Studios
+              </p>
+              <p class="resume-list__block-date">
+                <i class="far fa-calendar"></i> September 2021 - Present
+              </p>
+              <p>Web Applications Intern</p>
+              <p class="par">
+                We are given ticket for tasks in Web Applications, using Vue,
+                Postgresql, Node.js and firebase for wed applications and web
+                design.
+              </p>
+              <div class="line-e"></div>
+            </div>
+          </div>
+          <div
+            data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
+            <div class="resume-list__block">
+              <p class="resume-list__block-title">
+                <i class="far fa-building"></i> HiH Technologies
+              </p>
+              <p class="resume-list__block-date">
+                <i class="far fa-calendar"></i> Jan 2020 - March 2020
+              </p>
+              <p>Independent Dealer</p>
+              <p class="par">
+                I preformed in-house full factory demonstrations to provide
+                market research and to make sales on a product which was
+                distributed. I received training on said product before going
+                out on the field to clients homes to demonstrate the product.
+              </p>
+              <div class="line-e"></div>
+            </div>
+          </div>
+          <div
+            data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="resume-list__block">
+              <p class="resume-list__block-title">
+                <i class="far fa-building"></i> Enlight Technologies
+              </p>
+              <p class="resume-list__block-date">
+                <i class="far fa-calendar"></i> May 2017- Dec 2018
+              </p>
+              <p>Internship</p>
+              <p class="par">
+                I assisted sub-contractors for Telkom installing and repair
+                faults on ASDL and Fibre lines. I learned Hands-on how to use
+                the tools and equipment needed to install ADSL and Fibre lines
+                in home and the areas where the problems occur in order to
+                repair faults either from the customers Home, a DP(<strong
+                  ><i>Distribution Point</i></strong
+                >), an SDC(<strong><i>Street Distrution Cabinet</i></strong
+                >) or an MDF(<strong><i>Main Distribution Frame</i></strong
+                >).
+              </p>
+              <div class="line-e"></div>
+            </div>
+            <div
+              data-aos="flip-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="3000"
+            >
+              <div class="resume-list__block">
+                <p class="resume-list__block-title">
+                  <i class="far fa-building"></i> A.K Interiors
+                </p>
+                <p class="resume-list__block-date">
+                  <i class="far fa-calendar"></i> Nov 2016 - Dec 2017
+                </p>
+                <p>Trainee</p>
+                <p class="par">
+                  Whenever we got the material (wood) needed I had to pack and
+                  sort them buy size and colour. I assembled cupboards for
+                  kitchens, living rooms and bedroom. Once all cupboards were
+                  complete I used thinness and brooms to clean any pencil marks
+                  and saw dust left in them.
                 </p>
                 <div class="line-e"></div>
               </div>
             </div>
           </div>
-          <!-- Skiils -->
-          <div class="skill">
-            <h1 class="mine">Skills</h1>
-            <div class="row section__resume progress-list js-progress-list">
-              <div class="col-md-5 mr-auto">
-                <div class="progress-list__skill">
-                  <p>
-                    <span class="progress-list__skill-title">HTML</span>
-                    <span class="progress-list__skill-value">80%</span>
-                  </p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                  </div>
-                </div>
-              <div class="progress-list__skill">
-                <p>
-                  <span class="progress-list__skill-title">CSS</span>
-                  <span class="progress-list__skill-value">60%</span>
+        </div>
+        <div>
+          <h2 class="mine">Education</h2>
+        </div>
+        <div class="col-md-8 section__resume resume-list">
+          <div
+            data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
+            <div class="resume-list__block">
+              <p class="resume-list__block-title">LifeChoices Academy</p>
+              <p class="resume-list__block-date">
+                <i class="far fa-calendar"></i> April 2021 - September 2021
+              </p>
+              <p class="par">
+                A Training fercility focusing on teaching youth Web Development
+                and Coding, as well as focus on personal Development and
+                leadership skills.
+              </p>
+              <div class="line-e"></div>
+            </div>
+          </div>
+          <div
+            data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="resume-list__block">
+              <p class="resume-list__block-title">
+                Enlight Technologies - Certified Fibre Technician
+              </p>
+              <p class="resume-list__block-date">
+                <i class="far fa-calendar"></i> May 2017 - Dec 2018
+              </p>
+              <p class="par">
+                I was given training in the use of installing FTTH
+                (Fibre-To-The-Home) as well as the different forms of Fibre
+                repair.
+              </p>
+              <div class="line-e"></div>
+            </div>
+            <div
+              data-aos="flip-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2500"
+            >
+              <div class="resume-list__block">
+                <p class="resume-list__block-title">
+                  Iqra Academy - High School(Matric)
                 </p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                </div>
-              </div>
-              <div class="progress-list__skill">
-                <p>
-                  <span class="progress-list__skill-title">Microsoft Office: Word, Publisher and PowerPoint</span>
-                  <span class="progress-list__skill-value">90%</span>
+                <p class="resume-list__block-date">
+                  <i class="far fa-calendar"></i> January 2012 - Dec 2016
                 </p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                </div>
-              </div>
-              <div class="progress-list__skill">
-                <p>
-                  <span class="progress-list__skill-title">Python</span>
-                  <span class="progress-list__skill-value">40%</span>
+                <p class="par">
+                  This was the Seacondary School I attended for 5 years and as
+                  well as where I Matriculated with a Higher Ceritifate.
                 </p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
-                </div>
-              </div>                             
-              </div>
-              <div class="col-md-5 mr-auto">
-                <div class="progress-list__skill">
-                  <p>
-                    <span class="progress-list__skill-title">Time Management</span>
-                    <span class="progress-list__skill-value">60%</span>
-                  </p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                  </div>
-                </div>
-                <div class="progress-list__skill">
-                  <p>
-                    <span class="progress-list__skill-title">Origanizing</span>
-                    <span class="progress-list__skill-value">70%</span>
-                  </p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-                  </div>
-                </div>
-                <div class="progress-list__skill">
-                  <p>
-                    <span class="progress-list__skill-title">Adaptable</span>
-                    <span class="progress-list__skill-value">80%</span>
-                  </p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                  </div>
-                </div>
+                <div class="line-e"></div>
               </div>
             </div>
           </div>
-          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skiils -->
+    <section class="skill">
+      <h1 class="mine">Skills</h1>
+      <div class="col-md-5 mr-auto">
+        <div class="progress-list">
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="progress-list">
+          <i class="fab fa-css3-alt"></i>
+        </div>
+        <div class="progress-list">
+          <i class="fab fa-js"></i>
+        </div>
+        <div class="progress-list">
+          <i class="fab fa-python"></i>
+        </div>
+        <div class="progress-list">
+          <i class="fab fa-vuejs"></i>
+        </div>
+        <div class="progress-list">
+          <i class="fab fa-figma"></i>
         </div>
       </div>
     </section>
@@ -324,11 +354,12 @@
       <div class="button-container">
         <button class="Btn" onclick="filterCards('All')">All</button>
         <button class="Btn" onclick="filterCards('HTML/CSS')">HTML/CSS</button>
-        <button class="Btn" onclick="filterCards('JavaScript')">JavaScript</button>
+        <button class="Btn" onclick="filterCards('JavaScript')">
+          JavaScript
+        </button>
         <button class="Btn" onclick="filterCards('Python')">Python</button>
       </div>
-      <div class="project-cards">
-      </div>
+      <div class="project-cards"></div>
     </section>
     <!-- Testimnials -->
     <section id="testimonial" class="section-t">
@@ -370,27 +401,40 @@
           </div>
         </div>
         <div class="testimonial person4">
-          <img src="images/C8 Apr21 Gideon Daniels (2).JPG" >
+          <img src="images/C8 Apr21 Gideon Daniels (2).JPG" />
           <div class="container-t">
             <h2 class="people">Gideon Daniels</h2>
             <h3 class="job">- Jnr Web Developer -</h3>
-            <q class="quote">Ayyoob is intellegent, his dilligent when facing adversity and is unwavering, he always tries to do better everyday</q>
+            <q class="quote"
+              >Ayyoob is intellegent, his dilligent when facing adversity and is
+              unwavering, he always tries to do better everyday</q
+            >
           </div>
         </div>
         <div class="testimonial person5">
-          <img src="images/thapelo-tsotetsi.jpg" >
+          <img src="images/thapelo-tsotetsi.jpg" />
           <div class="container-t">
             <h2 class="people">Tepelo Tsotetsi</h2>
             <h3 class="job">- Lecturer -</h3>
-            <q class="quote">Ayyoob a a very good student who works very hard. He has great communication and intellectual skills. Ayyoob has the ability to learn new programming tools in very short space of time. He has no problem of working on both the backend as well as the front-end.</q>
+            <q class="quote"
+              >Ayyoob a a very good student who works very hard. He has great
+              communication and intellectual skills. Ayyoob has the ability to
+              learn new programming tools in very short space of time. He has no
+              problem of working on both the backend as well as the
+              front-end.</q
+            >
           </div>
         </div>
         <div class="testimonial person6">
-          <img src="images/2021-team-jason-wandrag.jpg" >
+          <img src="images/2021-team-jason-wandrag.jpg" />
           <div class="container-t">
             <h2 class="people">Jason Wandrag</h2>
             <h3 class="job">- Lecturer -</h3>
-            <q class="quote">Ayyoob is a kind and caring person who makes sure to put in 100% effort whilst taking his time to go over new concepts. He has a very pleasant nature and is quite respectful.</q>
+            <q class="quote"
+              >Ayyoob is a kind and caring person who makes sure to put in 100%
+              effort whilst taking his time to go over new concepts. He has a
+              very pleasant nature and is quite respectful.</q
+            >
           </div>
         </div>
       </div>
@@ -398,20 +442,18 @@
     <!-- Contact Form -->
     <section id="contact">
       <div class="header">
-          <header class="page-header-container">
-            <h2 class="page-heading2">Want To Talk?</h2>
-            <h3 class="page-subtitle">Let's get in touch</h3>
-          </header>             
+        <header class="page-header-container">
+          <h2 class="page-heading2">Want To Talk?</h2>
+          <h3 class="page-subtitle">Let's get in touch</h3>
+        </header>
       </div>
- 
+
       <div class="contactpage content">
         <div class="box1">
           <div class="con-info">
             <div class="con-info-sub">
               <i class="fas fa-map-marker-alt"></i>
-              <p class="con-info-text">
-                Cape Town, South Africa
-              </p>
+              <p class="con-info-text">Cape Town, South Africa</p>
             </div>
             <div class="con-info-sub">
               <i class="fas fa-phone-volume con-info-icon"></i>
@@ -429,45 +471,49 @@
           method="POST"
           target="blank"
         >
-        <input
-        class="contact-input"
-        type="text"
-        name="full_name"
-        id="full_name"
-        placeholder="Name"
-        required
-      />
-      <input
-        class="contact-input"
-        type="tel"
-        name="contact_no"
-        id="contact_no"
-        placeholder="Contact No."
-        required
-      />
-      <input
-        class="contact-input"
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Email"
-        required
-      />
-      <textarea
-        class="contact-input-msg"
-        name="message"
-        id="message"
-        placeholder="Type your message here"
-      ></textarea>
-      <button class="button" type="submit">Send</button>
-    </form>
+          <input
+            class="contact-input"
+            type="text"
+            name="full_name"
+            id="full_name"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="contact-input"
+            type="tel"
+            name="contact_no"
+            id="contact_no"
+            placeholder="Contact No."
+            required
+          />
+          <input
+            class="contact-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            class="contact-input-msg"
+            name="message"
+            id="message"
+            placeholder="Type your message here"
+          ></textarea>
+          <button class="button" type="submit">Send</button>
+        </form>
       </div>
     </section>
     <footer>
       <h3 class="foot">Made By Ayyoob Slamdien</h3>
       <div class="g">
-        <a href="https://github.com/aslamdien" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://codepen.io/aslamdien90/pens/public" target="_blank"><i class="fab fa-codepen"></i></a>
+        <a href="https://github.com/aslamdien" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://codepen.io/aslamdien90/pens/public" target="_blank"
+          ><i class="fab fa-codepen"></i
+        ></a>
       </div>
     </footer>
     <!-- Script tags under here -->

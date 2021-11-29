@@ -10,15 +10,16 @@
 }
 
 #aboutme {
-  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .about {
   border-radius: 20px;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 
 .file {
@@ -39,27 +40,19 @@
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 15px;
-  margin-left: 15px;
 }
 
 .row2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 100px;
-  margin-left: 100px;
 }
 
 .img4 {
@@ -98,27 +91,23 @@ dl {
 
 .bio {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 4%;
-  margin-left: 13%;
-  margin-right: 13%;
   font-size: 20px;
-  padding: 15px;
   line-height: 40px;
   gap: 50px;
   background: rgba(255, 255, 255, 0.25);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .free-time {
   display: flex;
-  align-items: baseline;
   justify-content: center;
-  gap: 17px;
-  margin-bottom: 10px;
 }
 
 .hob-name {
@@ -129,61 +118,17 @@ dl {
 .things {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-left: 14px;
-  margin-right: 14px;
-  width: 276px;
-  place-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+width: 20%;
   text-align: center;
 }
 
-.fa-tv {
-  background: #6d56c1;
+.thing{
+  background: #19a207;
   height: 100px;
   width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 240%;
-  margin-bottom: 25px;
-  border-radius: 50px;
-  padding-top: 20px;
-}
-
-.fa-gamepad {
-  background: #6d56c1;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 240%;
-  margin-bottom: 25px;
-  border-radius: 50px;
-  padding-top: 20px;
-}
-
-.fa-swimmer {
-  background: #6d56c1;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 240%;
-  margin-bottom: 25px;
-  border-radius: 50px;
-  padding-top: 20px;
-}
-
-.fa-biking {
-  background: #6d56c1;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 240%;
   margin-bottom: 25px;
   border-radius: 50px;

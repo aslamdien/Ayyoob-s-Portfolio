@@ -4,6 +4,24 @@
   display: block;
 }
 
+.Btn {
+  background: #63ca3a;
+  color: white;
+  border: 1px solid black;
+  border-radius: 13px;
+  height: 37px;
+  width: 98px;
+  position: relative;
+  bottom: 10px;
+  left: 19px;
+  font-size: 18px;
+}
+
+.Btn:hover {
+  box-shadow: inset 20px 20px 60px #5231ac, inset -20px -20px 60px #6e43e8;
+}
+
+
 .container {
   max-width: 1140px;
   margin-right: auto;
@@ -139,7 +157,7 @@ ul {
 
 .link {
   border-radius: 50px;
-  background: #603aca;
+  background: #63ca3a;
   width: 120px;
   height: 40px;
   place-items: center;
@@ -154,6 +172,6 @@ ul {
 
 .link:hover {
   border-radius: 50px;
-  background: linear-gradient(145deg, #4c21c2, #5a28e7);
+  background: linear-gradient(145deg, #2ec221, #38e728);
 }
 

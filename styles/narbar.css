@@ -9,14 +9,22 @@ nav {
   position: fixed;
   top: 0;
   background: black;
-  width: 199vh;
-  height: 6vh;
+  width: 225vh;
+  min-width: 10vh;
+  height: fit-content;
   text-decoration-line: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   z-index: 100;
-  padding-left: 90px;
+}
+
+.bar{
+  color: white;
+  font-size: 3vh;
+  display: none;
+
 }
 
 a {
@@ -26,23 +34,15 @@ a {
 }
 
 .nav-links {
-  position: relative;
   font-family: Roboto Mono, monospace;
   font-size: 30px;
-  top: 100;
-  left: 0;
-  display: inline-block;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   list-style-type: none;
   padding: 10px;
   transition: all 0.2s linear;
 }
 
 .nav-links:hover {
-  background: #7700ff;;
+  background: #19a207;
   color: black;
 }
 
@@ -58,4 +58,10 @@ a {
   font-weight: bold;
   margin-left: 25px;
   margin-right: 10px;
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  
 }

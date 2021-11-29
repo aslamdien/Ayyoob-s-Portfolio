@@ -1,5 +1,16 @@
 let projects = [
   {
+    imgURL: "./images/TechTown.png",
+    imgAlt: "project.png",
+    title: "Tech Town",
+    techStack: "JavaScript",
+    description:
+      "This is a fake eCommerce Website I created. It uses HTML, CSS and JavaScript as the front-end and an Heroku Api from Python as the backend",
+    title2: "Links:",
+    githubURL: "https://github.com/aslamdien/FrontEnd_Final_Project",
+    liveProjectURL: "https://tech-town-sa.netlify.app/",
+  },
+  {
     imgURL: "./images/contact.png",
     imgAlt: "project.png",
     title: "Contact Form",

@@ -53,7 +53,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #6f10bd;
+  color: #19bd10;
 }
 
 .con-info {
@@ -143,13 +143,14 @@
   text-decoration-line: none;
   font-size: x-large;
   border-radius: 50px;
-  background: linear-gradient(145deg, #5e0e9f, #6f10bd);
+  background: linear-gradient(145deg, #2b9f0e, #2dbd10);
 }
 
 .button:hover {
   border-radius: 50px;
-  background: #680fb1;
-  box-shadow: inset 5px 5px 10px #2a0647, inset -5px -5px 10px #a618ff;
+background: #19bd10;
+box-shadow: inset 6px 6px 12px #0e6809,
+            inset -6px -6px 12px #24ff17;
 }
 
 .fa-map-marker-alt {

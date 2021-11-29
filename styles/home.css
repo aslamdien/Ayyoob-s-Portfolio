@@ -1,36 +1,20 @@
 body {
-  height: 100vh;
   font-family: Roboto Mono, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   background-color: white;
-  overflow-x: hidden;
 }
 
 #homepage {
-  padding-top: 90px;
+  padding: 5% 10%;
   background: url(../images/8uLjyU.jpg);
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 100px;
   color: white;
 }
 
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.line {
-  height: 40vh;
-  width: 0.5vh;
-  border-radius: 50px;
-  background: #7700ff;
-  margin-right: 5vh;
-}
 
 .hello {
   font-family: "Brush Script MT", cursive;
@@ -47,14 +31,13 @@ body {
 
 .intro {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .download {
   border-radius: 50px;
-  background: #680fb1;
+  background: #19a207;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,14 +49,10 @@ body {
 
 .download:hover {
   border-radius: 50px;
-  background: #680fb1;
-  box-shadow: inset 5px 5px 10px #2a0647, inset -5px -5px 10px #a618ff;
+  background: #19a207;
+box-shadow: inset 20px 20px 60px #158a06, inset -20px -20px 60px #1dba08;
 }
 
-.img1 {
-  height: 80vh;
-  width: 80vh;
-}
 
 .fa-download {
   background: none;

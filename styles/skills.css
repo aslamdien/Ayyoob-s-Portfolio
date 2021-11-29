@@ -1,70 +1,29 @@
-.mr-auto {
-  margin-right: auto !important;
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.col-md-5 {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 41.66667%;
-  flex: 0 0 41.66667%;
-  max-width: 41.66667%;
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+.col-md-5{
+  display: flex;
+  gap: 20px;
+font-size:100px;
 }
 
 .progress-list {
-  margin-top: 30px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
   color: rgb(0, 0, 0);
-  box-sizing: inherit;
-  margin-right: 15px;
-  margin-left: 15px;
-  width: 100%;
-  background-color: white;
   padding: 20px;
-  border-radius: 15px;
+  background: #19a207;
+  border-radius: 20px;
+  transition: linear 0.6s;
 }
 
-.progress-list p {
-  font-family: Inconsolata, monospace;
-  font-size: 14px;
-  line-height: 20px;
-  text-transform: uppercase;
+.progress-list:hover{
+  color: #19a207;
+  background: rgb(0, 0, 0);
 }
 
-.progress-list p .progress-list__skill-value {
-  float: right;
-}
 
-.progress-list .progress {
-  height: 6px;
-  margin-bottom: 30px;
-}
-
-.progress {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  text-align: center;
-  background-color: #c3c9ce;
-  border-radius: 0.25rem;
-}
-
-.progress-list .progress .progress-bar {
-  background-color: #6d56c1;
-}
-
-.progress-bar {
-  height: 1rem;
-  line-height: 1rem;
-  color: #fff;
-  background-color: #007bff;
-  transition: width 0.6s ease;
-}
