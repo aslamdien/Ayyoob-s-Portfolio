@@ -51,7 +51,7 @@ let projects = [
     description:
       "These are my project cards with both the Live and Github link attach. This only contains the first three project above.",
     title2: "Links:",
-    githubURL: "https://github.com/Testimonial/",
+    githubURL: "https://github.com/aslamdien/Project-Card",
     liveProjectURL: "https://competent-spence-e7ce8e.netlify.app/",
   },
   {
@@ -60,7 +60,7 @@ let projects = [
     title: "Sneaker Site",
     techStack: "HTML/CSS",
     description:
-      "This was the first python project I created. It was a simple two number adding calculator, it was made with Python programming and Tkinter.",
+      "This site was a group project, using HTML, CSS and JavaScrip, we each toke a section to work to create this site",
     title2: "Links:",
     githubURL: "https://github.com/aslamdien/Sneakers/",
     liveProjectURL: "https://nostalgic-booth-3e9bb6.netlify.app",
